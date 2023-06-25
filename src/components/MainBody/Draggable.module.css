@@ -1,0 +1,203 @@
+.bodyContent{
+    width: 100%;
+    /* height: 90vh; */
+    background-color: #fff;
+}
+.dragContent{
+    display: flex;
+    /* cursor:grab; */
+   justify-content: space-evenly;
+    
+}
+.body{
+    max-height:500px;
+    width:250px;
+    background-color: #F5F5F5;
+    margin: 2rem;
+    border-radius: 1rem;
+    overflow: scroll;
+}
+.headerBody{
+    display: flex;
+    padding: 10px;
+    gap:5px;
+    align-items: center;
+    margin-left: 1rem;
+}
+.circle{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+.purple{
+    background-color: #5030E5;
+}
+
+.counter{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #625F6D;
+}
+.horizontal {
+    width: 80%;
+    margin-top: .5rem;
+    height: 3px;
+    margin-left: 1rem;
+    background-color: #5030E5;
+}
+.draggables{
+    width: 220px;
+  height:120px;
+    margin-top: 1rem;
+    background-color: #fff;
+    margin-left: 1rem;
+    border-radius: 1px;
+    margin-bottom: 1rem;
+    cursor: grab;
+    position: relative;
+}
+.orange{
+ background-color: #FFA500;
+}
+.blue{
+    background-color: #8BC48A;
+}
+.low{
+    width: 38px;
+    height: 20px;
+   position:absolute;
+   border-radius: 7px;
+   top:-6px;
+   display: flex;
+   gap:7rem;
+   padding: 10px;
+   align-items: center;
+   
+}
+.wordOrange{
+    color: #D58D49;
+    background-color:#D58D4D1A ;
+}
+.High{
+    background: #D8727D1A;
+   color:#D8727D;
+}
+.completed{
+    background-color: #68B26D1A;
+    color:#68B266 ;
+
+}
+.header{
+    position: absolute;
+    top:10px;
+    left: 8px;
+}
+.textcontainer{
+    width: 28ch;
+    font-size: 12px;
+    position: absolute;
+    top:36px;
+    left: 8px;
+}
+.endPart{
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    align-items: center;
+    /* gap:8px */
+}
+.imageContainer{
+    width: 16px;
+    height: 16px;
+    
+}
+.imageContainer:not(:first-child){
+    margin-left: -3px;
+}
+.imageContainer img{
+    width: 100%;
+    height: 100%;
+}
+.comment{
+    margin-left: 2rem;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    gap:3px
+}
+.folder{
+    margin-left: 3px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    gap: 3px;
+}
+.draggables2{
+    width: 220px;
+    height: 150px;
+    background-color: #fff;
+    margin-left: 1rem;
+    border-radius: 1px;
+    margin-bottom: 1rem;
+    cursor: grab;
+    position: relative;
+    margin-top: 1rem;
+}
+.draggables3{
+    width: 220px;
+    height: 250px;
+    background-color: #fff;
+    margin-left: 1rem;
+    border-radius: 1px;
+    margin-bottom: 1rem;
+    cursor: grab;
+    position: relative;
+    margin-top: 1rem;
+}
+
+.imgMobile{
+    position: absolute;
+    width: 190px;
+    height: 150px;
+    top:45px;
+    left: 8px; 
+}
+.imgMobile img{
+    width: 100%;
+    height: 100%;
+}
+.imgSplash{
+    /* margin-top: 1rem; */
+    position: absolute;
+    width: 190px;
+    height: 120px;
+    top:10px;
+    left: 8px;
+}
+.imgSplash img{
+    width: 100%;
+    height: 100%;
+}
+.multipleImg{
+    display: flex;
+    position: absolute;
+    top:40px;
+    left: 8px;
+    gap: 8px;
+}
+.multiContainer{
+    width: 100px;
+    height: 90px;
+}
+.multiContainer img{
+    width: 100%;
+    height: 100%;
+}
+

@@ -1,0 +1,14 @@
+.main{
+  width:80rem;
+  height:50rem;
+  background-color: #fff;
+  margin: 2rem;
+  border-radius: 30px;
+}
+.contentofpage{
+  display: flex;
+  gap: 5rem;
+}
+
+
+  
